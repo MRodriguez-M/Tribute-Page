@@ -1,6 +1,19 @@
 #title, #info-header-footer {
   font-family: "Copperplate Gothic Light", Verdana, sans-serif;
+  text-align: center;
 }
 #tribute-info, #img-caption {
   font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-align: center;
+  list-style-position: inside;
+}
+#tribute-link {
+  color: red;
+}
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
