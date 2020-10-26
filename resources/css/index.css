@@ -1,11 +1,31 @@
-#title, #info-header-footer {
+#main {
+  background-color: black;
+}
+#title {
   font-family: "Copperplate Gothic Light", Verdana, sans-serif;
   text-align: center;
+  line-height: 3em;
+  background-color: white;
+  color: red;
 }
-#tribute-info, #img-caption {
+#info-header-footer {
+  font-family: "Copperplate Gothic Light", Verdana, sans-serif;
+  text-align: center;
+  line-height: 3em;
+  color: white;
+}
+#tribute-info {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  text-align: left;
+  list-style-position: inside;
+  margin: auto;
+  width: 50%;
+  line-height: 2em;
+}
+#img-caption {
   font-family: "Trebuchet MS", Verdana, sans-serif;
   text-align: center;
-  list-style-position: inside;
+  color: white;
 }
 #tribute-link {
   color: red;
@@ -16,4 +36,6 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  border-style: solid;
+  border-color: red;
 }
